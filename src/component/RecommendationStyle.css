@@ -1,0 +1,124 @@
+.recommendation{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    /* text-align: center; */
+}
+
+.recommendation h1{
+    font-size: 2.5rem;
+    
+}
+
+.recommendationcard{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 32%;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem .8rem;
+    
+}
+
+.r-card-button-links {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+
+}
+
+.r-card-button-links button {
+    background: aliceblue;
+    padding: 0.2rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.11);
+    font-size: 0.9rem;
+    /* align-items: center; */
+
+}
+
+.r-card-button-links button:hover {
+    flex-direction: column;
+    background-color: lightseagreen;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.r-card-button-links > button > a {
+    text-decoration: none;
+    color:blue;
+}
+
+.r-card-button-links > button > a name{
+    font-size: 1rem;
+    align-items: center;
+}
+
+.r-card-text {
+    display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.r-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.r-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+
+.r-image:hover img{
+    transform: scale(1.3);
+}
+
+.r-card h4{
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px){
+    .recommendation{
+        margin: 4rem 2rem;
+    }
+
+    .recommendation text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .recommendation h1{
+        /* width: 100%; */
+        font-size: 2.3rem;
+    }  
+
+    .recommendationcard{
+        flex-direction: column;
+        align-items: center;
+    }
+    .r-card{
+        width: 100%;
+        margin-bottom:1.5rem;
+    }  
+
+    .r-card-button-links button {
+        margin-top: 1rem;
+        display: block;
+        font-size: 0.8rem;
+    }
+    
+}

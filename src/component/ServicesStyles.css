@@ -1,0 +1,122 @@
+.services{
+    margin: 4rem 6rem
+}
+
+.services h1{
+    font-size: 2.5rem;
+    padding-top: 0.10rem;
+}
+
+.first-serv {
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    margin-top: 4.5rem;
+    gap: 2rem;
+}
+
+.first-serv-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-items: space-between;
+    margin-top: 4.5rem;
+    gap: 2rem;
+}
+
+.serv-text{
+    width: 80%;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.s-card-button{
+    display: block;
+    place-self: flex-start;
+    align-self: flex-start;
+    margin-bottom: 0;
+    margin-top: auto;
+    background-color: none;
+}
+
+.s-card-button :hover{
+    justify-content: space-between;
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.s-card-button a {
+    text-decoration: none;
+    color: blue;
+}
+
+.serv-text h2{
+    padding-bottom: 1rem;
+}
+
+.booknow{
+    margin-top: 8rem;;
+}
+
+.ser-image{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.ser-image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.ser-image img:nth-child(2){
+position: absolute;
+top: -10%;
+right: 0;
+}
+
+@media screen and (max-width:850px){
+    .services{
+        margin: 4rem 2rem;
+    }
+
+    .first-serv{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .first-serv-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
+    }
+
+    .serv-text{
+        width: 100%;
+    }
+    
+    .serv-text h2{
+        text-align: center;
+    }
+
+    .ser-image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .ser-image img{
+        height: 250px;
+    }
+    .serv-text button {
+        margin-top: 1rem;
+   }
+}

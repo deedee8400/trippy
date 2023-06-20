@@ -1,0 +1,72 @@
+{"spots" : 
+    [
+        {
+            "heading":" Merlion Park and Marina Bay Sands" ,
+            "description" :"Live the high life in the breathtaking world of Marina Bay Sands.This is where you can touch, feel, and imagine." ,
+            "address" : "10 Bayfront Avenue, Singapore, 018956",
+            "bus" : ["97", "106", "133", "97E","56"],
+            "mrt": "Mrt : Red Line (NSL), Green Line (EWL). Alight at: Raffles Place Mrt stn.",
+            "img1" :"../assets/merLION copy.jpg" ,
+            "img2": "../assets/ocbc.jpg",
+            "maps":"https://goo.gl/maps/iUuPRxGjA7X3Mpnf9"
+        },
+
+        {
+            "heading":"Clarke Quay" ,
+            "description" :"Just around the corner from Clarke Quay is Boat Quay.Along with Circular Road, this stretch is lined with bars and nightclubs for just about any party animal." ,
+            "address" : "6 Eu Tong Sen St, Singapore, 059817",
+            "bus" : ["147", "166", "174", "197", "33", "51","145"],
+            "mrt": "Mrt : Purple Line (NEL). Alight at: Clarke Quay Mrt stn.",
+            "img1" :"../assets/clrqday.jpg" ,
+            "img2": "../assets/clrq.jpg",
+            "maps":"https://goo.gl/maps/cNAiEz3qpC4WedhJ9"
+        },
+
+        {
+            "heading":"Chinatown" ,
+            "description" :"Chinatown's maze of narrow roads includes Chinatown Food Street, with its restaurants serving traditional fare like Hainanese chicken rice, noodles and satay. Souvenir shops and indie boutiques dot the area, offering clothes, crafts and antiques,while Club Street is full of trendy wine bars. Cultural institutions here include the 1827 Sri Mariamman Temple and the ornate  Buddha Tooth Relic Temple and Museum." ,
+            "address" : "10 Bayfront Avenue, Singapore, 018956",
+            "bus" : ["143", "147", "568", "575", "80"],
+            "mrt": "Mrt : Purple Line (NEL), Blue Line (DTL). Alight at: Chinatown Mrt stn.",
+            "img1" :"../assets/chntwntemple.jpg" ,
+            "img2": "../assets/chinatwn.jpg",
+            "maps":"https://goo.gl/maps/YxFRwnHoyp9dafwC7"
+        },
+
+        {
+            "heading":"Orchard Road" ,
+            "description" :"Orchard Road is Singapore’s retail heart, with discount outlets, department stores and upscale boutiques, alongside luxury hotels.Emerald Hill Road is a mix of colorful Chinese baroque houses and casual pubs, while al fresco bars and eateries can be found along nearby Cuppage Terrace.The Newton Food Centre is a popular foodie hub, offering everything from barbecued seafood and roasted meats to traditional desserts." ,
+            "address" : "10 Bayfront Avenue, Singapore, 018956",
+            "bus" : ["106", "14E", "506", "65"],
+            "mrt": "Mrt : Red Line (NSL), Brown Line (TEL). Alight at: Orchard and Somerset Mrt stn.",
+            "img1" :"../assets/ION.jpg" ,
+            "img2": "../assets/shoppingorchard.jpeg",
+            "maps":"https://goo.gl/maps/navFWe3J5j98Fa1y9"
+        },
+
+
+        {
+            "heading":"Sentosa Island" ,
+            "description" :"Sentosa is an island resort off Singapore’s southern coast, connected to the city by road, cable car, pedestrian boardwalk and monorail. By Sentosa Station, Tiger Sky Tower has panoramic views that can stretch as far as Indonesia. On the south coast, Palawan Beach is lined with food stalls and bars, and has a suspension bridge to a small offshore island. Palm-lined, crescent-shaped Tanjong Beach is more tranquil." ,
+            "address" : "10 Bayfront Avenue, Singapore, 018956",
+            "bus" : ["10", "100", "143", "30","61", "80", "855", "97E"],
+            "mrt": "Mrt : Yellow Line (CCL), Purple Line (NEL). Alight at: Harbourfront Mrt stn.",
+            "img1" :"../assets/fun.jpg" ,
+            "img2": "../assets/cablecar.jpg",
+            "maps":"https://goo.gl/maps/J88TtzxsvsyoD8CaA"
+        },
+
+
+        {
+            "heading":"Mandai Bird Paradise and Night Safari" ,
+            "description" :"The Night Safari, Singapore is the world's first nocturnal zoo located in Mandai, Singapore. One of the most popular tourist attractions in the country, it forms part of the Mandai Wildlife Reserve along with the River Wonders, Singapore Zoo and Mandai Bird Paradise." ,
+            "address" : "10 Bayfront Avenue, Singapore, 018956",
+            "bus" : ["927", "138"],
+            "mrt": "Mrt : Red line (NSL), Brown line (TEL). Alight at: Khatib, Choa Chu Kang, Ang Mo Kio, and Springleaf Mrt stn.",
+            "img1" :"../assets/Entrancenightsafari.jpeg" ,
+            "img2": "../assets/mandai.jpg",
+            "maps":"https://goo.gl/maps/kz6F3ebWTZUkMUip7"
+        }
+
+    ]
+}
